@@ -94,6 +94,6 @@ Download magisk-cli.zip and install it from Magisk or Magisk's module manager. A
 ```
  ~ $ su
  ~ # cd /data/adb/modules
- /data/adb/modules # rm -rf magisk-cli/upgrade
- /data/adb/modules # rm -rf ../modules_upgrade/magisk-cli
+ /data/adb/modules # rm -rf magisk-cli/update
+ /data/adb/modules # rm -rf ../modules_update/magisk-cli
 ```
