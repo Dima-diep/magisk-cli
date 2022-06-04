@@ -87,3 +87,13 @@ Ramdisk commands:
     -m (mode) (directory) - create directory into ramdisk.cpio
     -o (directory) - unpack ramdisk to directory
 ```
+
+## Module installing
+
+Download magisk-cli.zip and install it from Magisk or Magisk's module manager. After installing, **WITHOUT REBOOTING**, go to the terminal and run:
+```
+ ~ $ su
+ ~ # cd /data/adb/modules
+ /data/adb/modules # rm -rf magisk-cli/upgrade
+ /data/adb/modules # rm -rf ../modules_upgrade/magisk-cli
+```
